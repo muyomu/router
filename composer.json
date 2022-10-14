@@ -3,9 +3,10 @@
     "description": "The router of muyomu framework",
     "type": "library",
     "license": "apache-2.0",
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Muyomu\\Router\\": "src/"
+            "muyomu\\router\\": "src/"
         }
     },
     "authors": [
