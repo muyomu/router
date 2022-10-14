@@ -1,0 +1,17 @@
+{
+    "name": "muyomu/router",
+    "description": "The router of muyomu framework",
+    "type": "library",
+    "license": "apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Muyomu\\Router\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mutian"
+        }
+    ],
+    "require": {}
+}
