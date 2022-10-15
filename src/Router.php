@@ -1,9 +1,9 @@
 <?php
 
-namespace Muyomu\Router;
+namespace muyomu\router;
 
-use Muyomu\Router\model\DataBase;
-use Muyomu\Router\model\Rule;
+use muyomu\router\model\DataBase;
+use muyomu\router\model\Rule;
 
 class Router extends DataBase
 {

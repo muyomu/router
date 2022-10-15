@@ -1,6 +1,6 @@
 <?php
 
-namespace Muyomu\Router\model;
+namespace muyomu\router\model;
 
 abstract class DataBase
 {

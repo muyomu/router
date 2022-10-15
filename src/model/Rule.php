@@ -1,6 +1,6 @@
 <?php
 
-namespace Muyomu\Router\model;
+namespace muyomu\router\model;
 
 class Rule
 {
