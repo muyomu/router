@@ -14,20 +14,20 @@ class Rule
 
     private string $middleware;
 
+    private array $pathPara;
+
     /**
      * @param string $route
      * @param string $method
      * @param string $controller
      * @param string $handle
-     * @param string $middleware
      */
-    public function __construct(string $route, string $method, string $controller, string $handle, string $middleware)
+    public function __construct(string $route, string $method, string $controller, string $handle)
     {
         $this->route = $route;
         $this->method = $method;
         $this->controller = $controller;
         $this->handle = $handle;
-        $this->middleware = $middleware;
     }
 
 
@@ -71,5 +71,27 @@ class Rule
         return $this->middleware;
     }
 
+    /**
+     * @param string $middleware
+     */
+    public function setMiddleware(string $middleware): void
+    {
+        $this->middleware = $middleware;
+    }
 
+    /**
+     * @param array $pathPara
+     */
+    public function setPathPara(array $pathPara): void
+    {
+        $this->pathPara = $pathPara;
+    }
+
+    /**
+     * @return array
+     */
+    public function getPathPara(): array
+    {
+        return $this->pathPara;
+    }
 }

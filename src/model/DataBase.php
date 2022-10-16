@@ -2,15 +2,20 @@
 
 namespace muyomu\router\model;
 
+use muyomu\database\DbClient;
+
 abstract class DataBase
 {
-    private static array $database;
+    private static DbClient $database;
 
-    public static function add(string $key,Rule $rule):void{
-        DataBase::$database[$key] = $rule;
+    public static function init():void{
+        if (empty(DataBase::$database)){
+            DataBase::$database = new DbClient();
+        }
     }
 
-    public static function get(string $key):Rule{
-        return DataBase::$database[$key];
+    public static function getDatabase():DbClient{
+        self::init();
+        return self::$database;
     }
 }
