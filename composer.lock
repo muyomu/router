@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "669f49291a98350179eeb42e5fd3d0b2",
+    "content-hash": "cfbdbc4fc95b805d28a669b2e3017b2f",
     "packages": [
         {
             "name": "muyomu/database",
-            "version": "v1.0.3",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/muyomu/database.git",
-                "reference": "7e4e7b94f8668d53400e3873add5ee4afe554c15"
+                "reference": "66287864adf69b2a712bc4dc092f214a7fe2c424"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/muyomu/database/zipball/7e4e7b94f8668d53400e3873add5ee4afe554c15",
-                "reference": "7e4e7b94f8668d53400e3873add5ee4afe554c15",
+                "url": "https://api.github.com/repos/muyomu/database/zipball/66287864adf69b2a712bc4dc092f214a7fe2c424",
+                "reference": "66287864adf69b2a712bc4dc092f214a7fe2c424",
                 "shasum": ""
             },
             "type": "library",
@@ -39,9 +39,9 @@
             "description": "The database of muyomu web framework",
             "support": {
                 "issues": "https://github.com/muyomu/database/issues",
-                "source": "https://github.com/muyomu/database/tree/v1.0.3"
+                "source": "https://github.com/muyomu/database/tree/v1.0.4"
             },
-            "time": "2022-10-15T11:56:40+00:00"
+            "time": "2022-10-16T00:30:47+00:00"
         },
         {
             "name": "muyomu/dpara",

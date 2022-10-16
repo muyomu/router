@@ -15,7 +15,7 @@ class Document
     private mixed $data;
 
     /**
-     * @param string $dataType
+     * @param int $dataType
      * @param string $createTime
      * @param string $modifyTime
      * @param int $version
