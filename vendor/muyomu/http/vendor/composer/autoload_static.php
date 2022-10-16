@@ -10,6 +10,7 @@ class ComposerStaticInit3be1db1d862166a6b03aa550e2aa02b5
         'm' => 
         array (
             'muyomu\\http\\' => 12,
+            'muyomu\\database\\' => 16,
         ),
     );
 
@@ -17,6 +18,10 @@ class ComposerStaticInit3be1db1d862166a6b03aa550e2aa02b5
         'muyomu\\http\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'muyomu\\database\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/muyomu/database/src',
         ),
     );
 

@@ -8,6 +8,12 @@ interface RequestClient
 
     public function getRequestURI():string;
 
+    public function getQueryString():string;
+
+    public function getProtocol():string;
+
+    public function getURL():string;
+
     public function getRemoteHost():string;
 
     public function getRemotePort():int;

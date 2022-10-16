@@ -2,14 +2,21 @@
 
 namespace muyomu\http;
 
+use muyomu\database\DbClient;
 use muyomu\http\client\RequestClient;
 use muyomu\http\exception\HeaderNotFound;
 
 class Request implements RequestClient
 {
+    private DbClient $dbClient;
     /*
      * 固定信息
      */
+    public function __construct()
+    {
+        $this->dbClient = new DbClient();
+    }
+
     public function getRequestMethod():string{
         return $_SERVER['REQUEST_METHOD'];
     }
@@ -33,10 +40,26 @@ class Request implements RequestClient
      * @throws HeaderNotFound
      */
     public function getHeader(string $key):string{
-        if(empty($_SERVER['HTTP_'.strtoupper($key)])){
+        if(array_key_exists($key,$_SERVER)){
             throw new HeaderNotFound();
         }else{
-            return $_SERVER['HTTP_'.strtoupper($key)];
+            return $_SERVER[$key];
         }
+    }
+
+    public function getQueryString(): string
+    {
+        return $_SERVER['QUERY_STRING'];
+    }
+
+    public function getProtocol(): string
+    {
+        return $_SERVER['SERVER_PROTOCOL'];
+    }
+
+    public function getURL(): string
+    {
+        $data = explode("?",$_SERVER['REQUEST_URI']);
+        return array_pop($data);
     }
 }

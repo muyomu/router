@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cfbdbc4fc95b805d28a669b2e3017b2f",
+    "content-hash": "74f57eb9b38ee8fd0be353c31b733467",
     "packages": [
         {
             "name": "muyomu/database",
-            "version": "v1.0.4",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/muyomu/database.git",
-                "reference": "66287864adf69b2a712bc4dc092f214a7fe2c424"
+                "reference": "73eef94ffcd00a84c0df36237679bfbe074a94b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/muyomu/database/zipball/66287864adf69b2a712bc4dc092f214a7fe2c424",
-                "reference": "66287864adf69b2a712bc4dc092f214a7fe2c424",
+                "url": "https://api.github.com/repos/muyomu/database/zipball/73eef94ffcd00a84c0df36237679bfbe074a94b1",
+                "reference": "73eef94ffcd00a84c0df36237679bfbe074a94b1",
                 "shasum": ""
             },
             "type": "library",
@@ -33,15 +33,15 @@
             "authors": [
                 {
                     "name": "mutian",
-                    "email": "bhfqlz@qq.com"
+                    "email": "mutian-xiangcai@outlook.com"
                 }
             ],
             "description": "The database of muyomu web framework",
             "support": {
                 "issues": "https://github.com/muyomu/database/issues",
-                "source": "https://github.com/muyomu/database/tree/v1.0.4"
+                "source": "https://github.com/muyomu/database/tree/v1.1.0"
             },
-            "time": "2022-10-16T00:30:47+00:00"
+            "time": "2022-10-16T00:57:44+00:00"
         },
         {
             "name": "muyomu/dpara",
@@ -81,17 +81,20 @@
         },
         {
             "name": "muyomu/http",
-            "version": "v1.0.2",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/muyomu/http.git",
-                "reference": "26d14d73f0de7e1b30716742919363ad29b57df1"
+                "reference": "bbb74540abeb921cf00d1c3221dabc632d7d7059"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/muyomu/http/zipball/26d14d73f0de7e1b30716742919363ad29b57df1",
-                "reference": "26d14d73f0de7e1b30716742919363ad29b57df1",
+                "url": "https://api.github.com/repos/muyomu/http/zipball/bbb74540abeb921cf00d1c3221dabc632d7d7059",
+                "reference": "bbb74540abeb921cf00d1c3221dabc632d7d7059",
                 "shasum": ""
+            },
+            "require": {
+                "muyomu/database": "1.1.0"
             },
             "type": "library",
             "autoload": {
@@ -112,9 +115,9 @@
             "description": "The http helper of muyomu web framework",
             "support": {
                 "issues": "https://github.com/muyomu/http/issues",
-                "source": "https://github.com/muyomu/http/tree/v1.0.2"
+                "source": "https://github.com/muyomu/http/tree/v1.1.0"
             },
-            "time": "2022-10-15T08:56:39+00:00"
+            "time": "2022-10-16T00:59:21+00:00"
         }
     ],
     "packages-dev": [],
