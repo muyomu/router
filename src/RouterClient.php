@@ -25,7 +25,7 @@ class RouterClient extends DataBase
     /**
      * @throws RuleNotMatch
      */
-    public function getRule(string $key):Document{
+    public static function getRule(string $key):Document{
         $db = self::getDatabase();
         $document =null;
         try {
