@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "74f57eb9b38ee8fd0be353c31b733467",
+    "content-hash": "da26300e02e1fc04f4ebc99d99e7731c",
     "packages": [
         {
             "name": "muyomu/database",
@@ -78,46 +78,6 @@
                 "source": "https://github.com/muyomu/dpara/tree/v1.0.0"
             },
             "time": "2022-10-14T12:23:06+00:00"
-        },
-        {
-            "name": "muyomu/http",
-            "version": "v1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/muyomu/http.git",
-                "reference": "bbb74540abeb921cf00d1c3221dabc632d7d7059"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/muyomu/http/zipball/bbb74540abeb921cf00d1c3221dabc632d7d7059",
-                "reference": "bbb74540abeb921cf00d1c3221dabc632d7d7059",
-                "shasum": ""
-            },
-            "require": {
-                "muyomu/database": "1.1.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "muyomu\\http\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "mutian",
-                    "email": "mutian-xiangcai@outlook.com"
-                }
-            ],
-            "description": "The http helper of muyomu web framework",
-            "support": {
-                "issues": "https://github.com/muyomu/http/issues",
-                "source": "https://github.com/muyomu/http/tree/v1.1.0"
-            },
-            "time": "2022-10-16T00:59:21+00:00"
         }
     ],
     "packages-dev": [],

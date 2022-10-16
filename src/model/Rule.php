@@ -72,26 +72,28 @@ class Rule
     }
 
     /**
-     * @param string $middleware
-     */
-    public function setMiddleware(string $middleware): void
-    {
-        $this->middleware = $middleware;
-    }
-
-    /**
-     * @param array $pathPara
-     */
-    public function setPathPara(array $pathPara): void
-    {
-        $this->pathPara = $pathPara;
-    }
-
-    /**
      * @return array
      */
     public function getPathPara(): array
     {
         return $this->pathPara;
+    }
+
+    /**
+     * @param string $middleware
+     */
+    public function setMiddleware(string $middleware): Rule
+    {
+        $this->middleware = $middleware;
+        return $this;
+    }
+
+    /**
+     * @param array $pathPara
+     */
+    public function setPathPara(array $pathPara): Rule
+    {
+        $this->pathPara = $pathPara;
+        return $this;
     }
 }

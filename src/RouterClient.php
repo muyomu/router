@@ -15,11 +15,12 @@ class RouterClient extends DataBase
     /**
      * @throws RepeatDefinition
      */
-    public static function rule(string $method, string $uri, string $controller, string $handle):void{
+    public static function rule(string $method, string $uri, string $controller, string $handle):Rule{
         $db = self::getDatabase();
         $rule=new Rule($uri,$method,$controller,$handle);
         $data = new Document(DataType::OBJECT,date("Y:M:D h:m:s"),date("Y:M:D h:m:s"),0,$rule);
         $db->insert($uri,$data);
+        return $rule;
     }
 
     /**
