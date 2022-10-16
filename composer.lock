@@ -1,0 +1,129 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "669f49291a98350179eeb42e5fd3d0b2",
+    "packages": [
+        {
+            "name": "muyomu/database",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/muyomu/database.git",
+                "reference": "7e4e7b94f8668d53400e3873add5ee4afe554c15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/muyomu/database/zipball/7e4e7b94f8668d53400e3873add5ee4afe554c15",
+                "reference": "7e4e7b94f8668d53400e3873add5ee4afe554c15",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "muyomu\\database\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "mutian",
+                    "email": "bhfqlz@qq.com"
+                }
+            ],
+            "description": "The database of muyomu web framework",
+            "support": {
+                "issues": "https://github.com/muyomu/database/issues",
+                "source": "https://github.com/muyomu/database/tree/v1.0.3"
+            },
+            "time": "2022-10-15T11:56:40+00:00"
+        },
+        {
+            "name": "muyomu/dpara",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/muyomu/dpara.git",
+                "reference": "106ec9a2d46c09180f9ba8b73e7b0c1ac1dbc43d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/muyomu/dpara/zipball/106ec9a2d46c09180f9ba8b73e7b0c1ac1dbc43d",
+                "reference": "106ec9a2d46c09180f9ba8b73e7b0c1ac1dbc43d",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "muyomu\\dpara\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "mutian"
+                }
+            ],
+            "description": "The dynamic paramater resolver of muyomu framework",
+            "support": {
+                "issues": "https://github.com/muyomu/dpara/issues",
+                "source": "https://github.com/muyomu/dpara/tree/v1.0.0"
+            },
+            "time": "2022-10-14T12:23:06+00:00"
+        },
+        {
+            "name": "muyomu/http",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/muyomu/http.git",
+                "reference": "26d14d73f0de7e1b30716742919363ad29b57df1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/muyomu/http/zipball/26d14d73f0de7e1b30716742919363ad29b57df1",
+                "reference": "26d14d73f0de7e1b30716742919363ad29b57df1",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "muyomu\\http\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "mutian",
+                    "email": "mutian-xiangcai@outlook.com"
+                }
+            ],
+            "description": "The http helper of muyomu web framework",
+            "support": {
+                "issues": "https://github.com/muyomu/http/issues",
+                "source": "https://github.com/muyomu/http/tree/v1.0.2"
+            },
+            "time": "2022-10-15T08:56:39+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
