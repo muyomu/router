@@ -55,7 +55,7 @@ class ConfigParser
         $keys = array_keys($defaultData);
         foreach ($keys as $key){
             if (is_array($defaultData[$key])){
-                if (!$this->checkForAssocArray($defaultData[$key])){
+                if ($this->checkForAssocArray($defaultData[$key])){
                     $this->resolveConfigData($fieldData[$key],$defaultData[$key]);
                 }else{
                     if (gettype($fieldData[$key]) == gettype($defaultData[$key]) || isset($fieldData[$key])){
