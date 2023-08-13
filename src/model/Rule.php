@@ -28,7 +28,6 @@ class Rule
         $this->handle = $handle;
     }
 
-
     /**
      * @return string
      */
